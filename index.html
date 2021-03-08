@@ -34,8 +34,150 @@
   <meta name="format-detection" content="address=no">
 
   <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <!-- Header -->
+
+  <header class="header">
+    <div class="header__top-section">
+      <a class="header__top-logo" href="#" alt="Логотип копании Nestle">
+        <img class="header__logo" src="./images/header/logo.png" alt="Логотип копании Nestle">
+      </a>
+      <nav class="header__nav">
+        <ul class="header__list">
+
+          <li class="header__item">
+            <a class="header__link" href="#">Главная</a>
+          </li>
+
+          <li class="header__item">
+            <a class="header__link" href="#">Фонды</a>
+          </li>
+
+          <li class="header__item">
+            <a class="header__link" href="#">Победители</a>
+          </li>
+
+          <li class="header__item">
+            <a class="header__link" href="#">Вопросы-ответы</a>
+          </li>
+
+          <li class="header__item">
+            <a class="header__link" href="#">Личный кабинет</a>
+          </li>
+
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="header__buttom-section">
+        <h1 class="header__buttom-title title">Вместе заботимся о малышах!<span class="header__buttom-transfer"></span></h1>
+        <p class="header__buttom-subtitle subtitle">Получайте гарантированный подарок и помогайте детям!</p>
+        <form class="header__buttom-form" action="">
+          <div class="header__form-wrapper">
+            <input class="header__buttom-input" type="text" placeholder="Ввести код">
+            <button class="button" type="button">Зарегистрировать</button>
+          </div>
+        </form>
+        <p class="header__buttom-text">
+          Вы можете зарегистрировать код через приложение «Whats App» по номеру
+          <a class="header__buttom-link" href="tel:+79160001066">+7 (916) 000-10-66</a>
+        </p>
+        <img class="header__buttom-image" src="./images/header/present-1.png" alt="Банка детского питания Nestle NAN Optipro в подарок">
+        <div class="header__foundations">
+          <ul class="header__foundations-list">
+
+            <li class="header__foundations-item">
+              <a class="header__foundations-link" href="https://podari-zhizn.ru/main">
+                <img class="header__foundations-image" src="./images/header/found-logo-1.png" alt="Благотворительный фонд помощи детям с онкогематологическими и иными тяжелыми заболеваниями «Подари жизнь»">
+              </a>
+            </li>
+
+            <li class="header__foundations-item">
+              <a class="header__foundations-link" href="https://www.life-line.ru/">
+                <img class="header__foundations-image" src="./images/header/found-logo-2.png" alt="Благотворительный фонд спасения тяжелобольных детей «Линия жизни»">
+              </a>
+            </li>
+
+            <li class="header__foundations-item">
+              <a class="header__foundations-link" href="https://doroga-zhizni.org/?utm_source=www.google.com&utm_medium=organic&utm_campaign=Google&referrer-analytics=1">
+                <img class="header__foundations-image" src="./images/header/found-logo-3.png" alt="Благотворительный фонд «Дорога Жизни»">
+              </a>
+            </li>
+
+            <li class="header__foundations-item">
+              <a class="header__foundations-link" href="https://www.detis.ru/">
+                <img class="header__foundations-image" src="./images/header/found-logo-4.png" alt="Благотворительный Фонд «Детские сердца» осуществляет адресную помощь детям с врожденными заболеваниями сердца от 0 до 18 лет.">
+              </a>
+            </li>
+
+          </ul>
+          <div class="header__donations">
+            <p class="header__donations-description">Всего перечислено в фонды</p>
+            <p class="header__donations-sum">320 910 рублей</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+
+  <main class="content">
+
+    <!-- Registration -->
+
+    <section class="registration">
+      <div class="container">
+        <div class="registration__wrapper">
+          <h2 class="registration__title title">
+            Регистрируя код, вы вносите вклад 
+            <span class="registration__subtitle subtitle">
+              в заботу о малышах, которым помогают благотворительные фонды
+            </span>
+          </h2>
+          <ul class="registration__list">
+  
+            <li class="registration__item">
+              <div class="registration__item-wrap">
+                <img class="registration__item-icon" src="./images/registration/icon-1.png" alt="Зарегистриуйте код с упаковки на сайте">
+              </div>
+              <p class="registration__text">
+                <span class="registration__bold-text">Зарегистриуйте код</span> с упаковки на сайте
+              </p>
+            </li>
+
+            <li class="registration__item">
+              <div class="registration__item-wrap">
+                <img class="registration__item-icon" src="./images/registration/icon-2.png" alt="Получите гарантированный кэшбек на телефон и помогайте детям">
+              </div>
+              <p class="registration__text">
+                <span class="registration__bold-text">Получите гарантированный</span> кэшбек на телефон<sup class="registration__small-text">1</sup> и<span class="registration__bold-text">помогайте детям<sup class="registration__small-text">3</sup> </span>
+              </p>
+            </li>
+
+            <li class="registration__item">
+              <div class="registration__item-wrap">
+                <img class="registration__item-icon" src="./images/registration/icon-3.png" alt="Участвуйте в еженедельном розыгрыше 100 000 руб!">
+              </div>
+              <p class="registration__text">
+                <span class="registration__bold-text">Участвуйте в еженедельном розыгрыше 100 000 руб!<sup class="registration__small-text">2</sup> </span>
+              </p>
+            </li>
+            
+          </ul>
+          <button class="registration__button button" type="button">Зарегистрировать</button>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
   
   <script src="./js/main.js"></script>
 </body>
