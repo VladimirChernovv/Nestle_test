@@ -48,6 +48,9 @@
       <a class="header__top-logo" href="#" alt="Логотип копании Nestle">
         <img class="header__logo" src="./images/header/logo.png" alt="Логотип копании Nestle">
       </a>
+      <a class="header__modile-logo" href="#" alt="Логотип копании Nestle">
+        <img class="header__small-logo" src="./images/header/small-logo.png" alt="Логотип копании Nestle">
+      </a>
       <nav class="header__nav">
         <ul class="header__list">
 
@@ -73,15 +76,27 @@
 
         </ul>
       </nav>
+      <div class="header__mobile-nav">
+        <button class="header__mobile-button">
+          <img class="" src="./images/header/User.png" alt="Личный кабинет">
+        </button>
+        <button class="header__mobile-button">
+          <img class="" src="./images/header/Menu.png" alt="Меню">
+        </button>
+      </div>
     </div>
     <div class="container">
       <div class="header__bottom-section">
-        <h1 class="header__bottom-title title">Вместе заботимся о малышах!<span class="header__bottom-description description"></span></h1>
+        <h1 class="header__bottom-title title">Вместе заботимся<br class="carryover"> о малышах!
+          <div class="beacon">
+            <span class="header__bottom-description description"></span>
+          </div>
+        </h1>
         <p class="header__bottom-subtitle subtitle">Получайте гарантированный подарок и помогайте детям!</p>
         <form class="header__bottom-form" action="">
           <div class="header__form-wrapper">
             <input class="header__bottom-input" type="text" placeholder="Ввести код">
-            <button class="button" type="button">Зарегистрировать</button>
+            <button class="header__button button" type="button">Зарегистрировать</button>
           </div>
         </form>
         <p class="header__bottom-text">
@@ -89,6 +104,7 @@
           <a class="header__bottom-link" href="tel:+79160001066">+7 (916) 000-10-66</a>
         </p>
         <img class="header__bottom-image" src="./images/header/present-1.png" alt="Банка детского питания Nestle NAN Optipro в подарок">
+        <img class="header__mobile-image" src="./images/header/present-mobile.png" alt="Банка детского питания Nestle NAN Optipro в подарок">
         <div class="header__foundations">
           <ul class="header__foundations-list">
 
@@ -182,7 +198,9 @@
       <div class="container">
         <h2 class="care__title title">
           Вместе заботимся о малышах!
-          <span class="care__description description"></span>
+          <div class="beacon">
+            <span class="care__description description"></span>
+          </div>
         </h2>
         <p class="care__subtitle subtitle">
           Получайте гарантированный подарок и помогайте детям!
@@ -234,17 +252,20 @@
 
           </div>
           <div class="care__big-card">
-            <img class="care__big-background" src="./images/care/icon-3.png" alt="+ 10 000 рублей будут перечислены в благотворительный фонд">
-            <p class="care__big-prize">Еженедельный розыгрыш суперприза:</p>
-            <p class="care__big-sum">100 000</p>
-            <p class="care__big-currency">
-              рублей
-              <span class="care__description-second description"></span>
-            </p>
-            <p class="care__big-donation">на заботу о малыше</p>
-            <p class="care__charitable-foundation">
-              <span class="care__charitable-bold">+ 10 000 рублей</span><br> будут перечислены<br> в благотворительный<br> фонд<sup class="small-text">4</sup>
-            </p>
+            <div class="care__big-wrapper">
+              <p class="care__big-prize">Еженедельный розыгрыш суперприза:</p>
+              <p class="care__big-sum">100 000</p>
+              <p class="care__big-currency">
+                рублей
+                <div class="beacon">
+                  <span class="care__description-second description"></span>
+                </div>
+              </p>
+              <p class="care__big-donation">на заботу о малыше</p>
+              <p class="care__charitable-foundation">
+                <span class="care__charitable-bold">+ 10 000 рублей</span><br> будут перечислены<br> в благотворительный<br> фонд<sup class="small-text">4</sup>
+              </p>
+            </div>
           </div>
         </div>
         <p class="care__buyer-desire">*по вашему желанию может быть перечислена вся сумма подарка</p>
@@ -314,19 +335,19 @@
     <div class="footer__wrapper">
       <ul class="footer__list">
 
-        <li class="footer__item">
+        <li class="footer__item rules">
           <a class="footer__link" href="#">
             Полные правила акции
           </a>
         </li>
 
-        <li class="footer__item">
+        <li class="footer__item confidentiality">
           <a class="footer__link" href="#">
             Политика конфиденциальности
           </a>
         </li>
 
-        <li class="footer__item">
+        <li class="footer__item friends">
           <a class="footer__link" href="#">
             Рассказать друзьям
           </a>
