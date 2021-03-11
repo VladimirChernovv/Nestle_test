@@ -109,16 +109,28 @@ body {
 /* Header */
 
 .header {
-	background: #E7E7E7;
-	padding-bottom: 59px;
+  background: url('../images/header/background-3.svg') 0% 100% no-repeat,
+              url('../images/header/background-2.jpeg') 50% 79% no-repeat;
+              
+	background-color: #E7E7E7;
+  background-size: auto, cover;
+	padding-bottom: 100px;
 }
+
+/* .header__background-bottom {
+  background: url('../images/header/background-3.svg') no-repeat;
+  background-position: 15% 15%;
+} */
 
 .header__top-section {
 	position: relative;
 	display: flex;
 	justify-content: flex-end;
-	padding: 14px 30px;
-	background-color: #1dacd182;
+	padding: 14px 30px 60px 30px;
+	/* background-color: #1dacd182; */
+  background-image: url('../images/header/background-1.svg');
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
 }
 
 .header__top-logo {
@@ -158,6 +170,10 @@ body {
 
 .header__mobile-nav {
   display: none;
+}
+
+.header__bottom-section {
+  position: relative;
 }
 
 .header__bottom-title {
@@ -241,6 +257,9 @@ body {
 	background: #fff;
 	margin-top: 33px;
 	padding: 4px 4px 4px 27px;
+  position: absolute;
+  bottom: -125px;
+  left: 0;
 }
 
 .header__foundations-list {
@@ -285,7 +304,7 @@ body {
 
 @media screen and (max-width: 1400px) {
   .header__top-section {
-    padding: 20px 30px;
+    padding-bottom: 60px;
   }
 
   .header__top-logo {
